@@ -15,6 +15,7 @@ Bdmati.com || {{$categorys->category}}
 <div class="container-fluid">
 
              <img src="{{asset($categorys->image)}}" style="height:350px;width:100%">
+             <img src="{{asset($categorys->image)}}" style="height:350px;width:100%">
        
         </div>
         </div>
@@ -25,7 +26,7 @@ Bdmati.com || {{$categorys->category}}
                 <div class=" title">
                     <h1>{{$categorys->category}} </h1>
                     <p style="color:red"><b>{{$categorys->quota}}</b></p>
-                    
+
                 </div>
 
 
