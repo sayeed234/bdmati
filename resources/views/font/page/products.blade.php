@@ -25,6 +25,7 @@ Bdmati.com || {{$categorys->category}}
                 <div class=" title">
                     <h1>{{$categorys->category}} </h1>
                     <p style="color:red"><b>{{$categorys->quota}}</b></p>
+                    
                 </div>
 
 
